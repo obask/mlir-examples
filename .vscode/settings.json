@@ -1,0 +1,10 @@
+{
+	"cmake.debugConfig": {
+		"args": [
+			"../../test/Examples/Toy/Ch2/codegen.toy",
+            "-emit=mlir",
+            "-mlir-print-debuginfo",
+            "2>", "codegen.mlir"
+		]
+	}
+}
